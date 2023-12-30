@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         background: "#FEFDFC",
-        btnColor:"#BE1E2D",
+        btnColor:"#1D2130",
+
       },
       fontFamily: {
         custom: ["Poppins", "sans-serif"],

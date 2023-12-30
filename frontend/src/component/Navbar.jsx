@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative lg:mx-10">
+    <div className="relative lg:mx-40">
       <div className="flex justify-between items-center px-5 py-5 sm:h-[80px] lg:h-[110px]">
         <div className="">
           <img
@@ -26,7 +26,7 @@ const Navbar = () => {
         >
           <FaBars />
         </div>
-        <nav className="hidden md:flex items-center space-x-8 gap-5 text-[16px]">
+        <nav className="hidden md:flex items-center space-x-8 gap[40px] font-normal text-[16px]">
           <a href="#home" className="">
             Home
           </a>
