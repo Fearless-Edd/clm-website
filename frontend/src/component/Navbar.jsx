@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="relative mg:mx-">
+    <div className="relative ">
       <div className="flex justify-between items-center px-5 py-5 sm:h-[80px] lg:h-[110px] lg:gap-10">
         <div className="">
           <img
