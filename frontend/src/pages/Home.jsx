@@ -1,7 +1,6 @@
 import Navbar from "../component/Navbar";
 import Hero from "../component/Hero";
-import { About } from "../assets/images/index";
-
+import { About, logo1,logo2, logo3 ,logo4, logo5, logo6} from "../assets/images";
 import React from "react";
 import PrimaryBtn from "../component/PrimaryBtn";
 
@@ -21,20 +20,22 @@ const Home = () => {
               CLM Native prioritizes community sensitization
             </h1>
             <div className="lg:text-xl ">
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse varius enim in eros elementum tristique.
-            </p>
-            <p className="">
-              ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
-              ut commodo diam libero vitae erat.Aenean faucibus nibh et justo
-              cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
-              tristique posuere.
-            </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </p>
+              <p className="">
+                ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                ut commodo diam libero vitae erat.Aenean faucibus nibh et justo
+                cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
+                tristique posuere.
+              </p>
             </div>
-        <PrimaryBtn title="Learn More" textColor="#FFFFFF" bgColor="#BE1E2D" />
-
+            <PrimaryBtn
+              title="Learn More"
+              textColor="#FFFFFF"
+              bgColor="#BE1E2D"
+            />
           </div>
         </div>
         <div className="flex justify-center items-center lg:w-1/2">
@@ -42,7 +43,18 @@ const Home = () => {
         </div>
       </div>
 
-
+      {/* Our Suppouters */}
+      <div className="px-5">
+        <h1 className="font-semibold py-4">Our Suppouters</h1>
+        <div className="grid grid-cols-3 gap-5">
+          <img src={logo1} alt="" />
+          <img src={logo2} alt="" />
+          <img src={logo3} alt="" />
+          <img src={logo4} alt="" />
+          <img src={logo5} alt="" />
+          <img src={logo6} alt="" />
+        </div>
+      </div>
     </div>
   );
 };
