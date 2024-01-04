@@ -44,9 +44,9 @@ const Home = () => {
       </div>
 
       {/* Our Suppouters */}
-      <div className="px-5">
-        <h1 className="font-semibold py-4">Our Suppouters</h1>
-        <div className="grid grid-cols-3 gap-5">
+      <div className="px-5 md:px-16">
+        <h1 className="font-semibold py-4 md:font-bold">Our Suppouters</h1>
+        <div className="grid grid-cols-3 gap-5 lg:grid-cols-6">
           <img src={logo1} alt="" />
           <img src={logo2} alt="" />
           <img src={logo3} alt="" />
