@@ -8,7 +8,7 @@ const PrimaryBtn = ({ title, textColor, bgColor }) => {
 
   return (
     <div>
-      <button style={buttonStyle} className='font-bold p-2 px-3'>{title}</button>
+      <button style={buttonStyle} className='font-bold p-2 px-3 rounded-lg'>{title}</button>
     </div>
   );
 }

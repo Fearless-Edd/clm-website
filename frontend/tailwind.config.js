@@ -9,6 +9,7 @@ export default {
       colors: {
         background: "#FEFDFC",
         btnColor:"#1D2130",
+        foregrround:"#F4F3F3",
 
       },
       fontFamily: {
